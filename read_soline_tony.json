@@ -39,10 +39,7 @@
 					"200": {
 						"description": "OK",
 						"schema": {
-							"type": "array",
-							"items": {
-								"$ref": "#/definitions/ReadSoLine"
-							}
+								"$ref":"#/definitions/ReadSoLineWrapper"
 						},
 						"examples": {
 							"application/json": {
@@ -74,6 +71,20 @@
 		}
 	},
 	"definitions": {
+	  "ReadSoLineWrapper": {
+      "type": "object",
+      "properties": {
+        "data": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/ReadSoLine"
+            }
+        },
+        "count": {
+          "type": "integer"
+        }
+      }
+    },
 		"Orderno": {
 			"description": "Model for Orderno",
 			"required": [
