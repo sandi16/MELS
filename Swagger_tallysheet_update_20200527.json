@@ -1,0 +1,101 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"title": "Vinfiniti",
+		"description": "API for test3.vinfiniti.biz",
+		"version": "0.0.0"
+	},
+	"host": "test3.vinfiniti.biz:8210",
+	"basePath": "/Vin3RService/rest/commonEdi/addOrUpdateEdiData/MELS",
+	"schemes": [
+		"https"
+	],
+	"paths": {
+		"/TBLEDI_MELS_TALLY_SHEET": {
+			"post": {
+				"tags": [
+					"TBLEDI_MELS_TALLY_SHEET"
+				],
+				"description": "Update",
+				"operationId": "Update",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "CustContainerNo",
+						"in": "body",
+						"description": "Cust_ContainerNo",
+						"required": true,
+						"schema": {
+							"$ref": "#/definitions/CustContainerNo"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "array",
+							"items": {
+								"$ref": "#/definitions/Update"
+							}
+						},
+						"examples": {
+							"application/json": {
+								"success": true,
+								"errorCode": null,
+								"errorDesc": null,
+								"successDesc": null
+							}
+						}
+					}
+				},
+				"security": [
+					{
+						"Default": []
+					}
+				]
+			}
+		}
+	},
+	"definitions": {
+		"Update": {
+			"description": "Model for Update",
+			"required": [
+				"errorCode"
+			],
+			"properties": {
+				"errorCode": {
+					"type": "string",
+					"x-example": ""
+				},
+				"errorDesc": {
+					"type": "string",
+					"x-example": ""
+				},
+				"success": {
+					"type": "boolean",
+					"x-example": "true"
+				},
+				"successDesc": {
+					"type": "string",
+					"x-example": ""
+				}
+			}
+		}
+	},
+	"securityDefinitions": {
+		"Default": {
+			"description": "Default Authentication",
+			"type": "basic"
+		}
+	},
+	"security": [],
+	"tags": [
+		{
+			"name": "TBLEDI_MELS_TALLY_SHEET",
+			"description": "Operations about TBLEDI_MELS_TALLY_SHEET"
+		}
+	]
+}
