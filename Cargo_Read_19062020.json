@@ -26,12 +26,12 @@
 				],
 				"parameters": [
 					{
-						"name": "CUSTCONTAINER",
+						"name": "CUSTCONTAINER_ITEM",
 						"in": "body",
-						"description": "Cust_ContainerNo",
+						"description": "CUSTCONTAINER_ITEM",
 						"required": true,
 						"schema": {
-							"$ref": "#/definitions/CUSTCONTAINER"
+							"$ref": "#/definitions/CUSTCONTAINER_ITEM"
 						}
 					}
 				],
@@ -106,15 +106,15 @@
         }
       }
     },
-		"CUSTCONTAINER": {
-			"description": "Model for CUSTCONTAINER",
+		"CUSTCONTAINER_ITEM": {
+			"description": "Model for CUSTCONTAINER_ITEM",
 			"required": [
-				"CUSTCONTAINER"
+				"CUSTCONTAINER_ITEM"
 			],
 			"properties": {
-				"CUSTCONTAINER": {
+				"CUSTCONTAINER_ITEM": {
 					"type": "string",
-					"x-example": "Cargo-T1-1"
+					"x-example": "Cargo-T1-1-A-0550S"
 				}
 			}
 		},
