@@ -1,0 +1,290 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"title": "Vinfiniti",
+		"description": "API for test3.vinfiniti.biz",
+		"version": "0.0.0"
+	},
+	"host": "test3.vinfiniti.biz:8210",
+	"basePath": "/Vin3RService/rest/commonEdi/getEdiData/MELS",
+	"schemes": [
+		"https"
+	],
+	"paths": {
+		"/TBLEDI_MELS_TALLY_CARGO_INSPEC": {
+			"post": {
+				"tags": [
+					"TBLEDI_MELS_TALLY_CARGO_INSPEC"
+				],
+				"description": "Read Cargo",
+				"operationId": "Read_Cargo",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "CUSTCONTAINER",
+						"in": "body",
+						"description": "Cust_ContainerNo",
+						"required": true,
+						"schema": {
+							"$ref": "#/definitions/CUSTCONTAINER"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+								"$ref": "#/definitions/CUSTCONTAINERWrapper"
+							}
+						},
+						"examples": {
+							"application/json": {
+										"VIN_ORDERNO": "MEL-TWL1ST-SV0000290",
+										"VIN_CUSTSYSNO": "Cargo-T1",
+										"CHECKING_DATE": null,
+										"CONTAINER_NO": null,
+										"VIN_GRADES": null,
+										"VIN_LOTNO": null,
+										"TOTAL_CHECK": null,
+										"PURPOSE": null,
+										"CARGO_TYPE": null,
+										"PACKING_TYPE": null,
+										"STAINS_BAG": null,
+										"ANY_TAPES_ON_BAG": null,
+										"NO_DAMAGE_BAG": null,
+										"BOXES_CRITIEA_VME": null,
+										"PRINTING_GRADE": null,
+										"BAGS_YELLOW_COLOR": "11",
+										"SHRINK_WRAPS": null,
+										"CARGO_PACKS_VME": null,
+										"CARDBOARD_SEPERATOR_VME": null,
+										"FOR_ANY_NO_ITEM": null,
+										"DEFECTS_STATE": null,
+										"CHECK_BY": null,
+										"SUPERVISOR": null,
+										"RED_LABEL": null,
+										"AOC_LABEL": null,
+										"BLUE_LABEL": null,
+										"BLUE_LABEL_REMOVE": null,
+										"GREEN_LABEL": null,
+										"GRADE_LABEL": null,
+										"BARCODE_QR_LABEL": null,
+										"CUSTCONTAINER": null,
+										"VIN_POS": null,
+										"VIN_ITEMSTATE": null,
+										"VIN_SHIPMENTMETHOD": null,
+										"VIN_SOL_LINESTATUS": null,
+										"CUSTCONTAINER_ITEM": null
+									}
+								}
+							}
+						},
+						"security": [
+						{
+							"Default": []
+						}
+				]
+			}
+		},
+	"definitions": {
+	  "CUSTCONTAINERWrapper": {
+      "type": "object",
+      "properties": {
+        "data": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/ReadCargo"
+            }
+        },
+        "count": {
+          "type": "integer"
+        }
+      }
+    },
+		"CUSTCONTAINER": {
+			"description": "Model for CUSTCONTAINER",
+			"required": [
+				"CUSTCONTAINER"
+			],
+			"properties": {
+				"CUSTCONTAINER": {
+					"type": "string",
+					"x-example": "Cargo-T1-1"
+				}
+			}
+		},
+		"ReadCargo": {
+			"description": "Model for ReadCargo",
+			"required": [
+				"CUSTCONTAINER"
+			],
+			"properties": {
+				"VIN_CUSTSYSNO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_ORDERNO" : {
+					"type": "string",
+					"x-example": ""
+				},
+				"CHECKING_DATE": {
+					"type": "string",
+					"format": "date-time",
+					"x-example": "2020-04-14T10:47:24"
+				},
+				"CONTAINER_NO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_GRADES": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_LOTNO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"TOTAL_CHECK": {
+					"type": "string",
+					"x-example": ""
+				},
+				"PURPOSE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CARGO_TYPE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"PACKING_TYPE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"STAINS_BAG": {
+					"type": "string",
+					"x-example": ""
+				},
+				"ANY_TAPES_ON_BAG": {
+					"type": "string",
+					"x-example": ""
+				},
+				"NO_DAMAGE_BAG": {
+					"type": "string",
+					"x-example": ""
+				},
+				"BOXES_CRITIEA_VME": {
+					"type": "string",
+					"x-example": ""
+				},
+				"PRINTING_GRADE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"BAGS_YELLOW_COLOR": {
+					"type": "string",
+					"x-example": ""
+				},
+				"SHRINK_WRAPS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CARGO_PACKS_VME": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CARDBOARD_SEPERATOR_VME": {
+					"type": "string",
+					"x-example": ""
+				},
+				"FOR_ANY_NO_ITEM": {
+					"type": "string",
+					"x-example": ""
+				},
+				"DEFECTS_STATE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CHECK_BY": {
+					"type": "string",
+					"x-example": ""
+				},
+				"SUPERVISOR": {
+					"type": "string",
+					"x-example": ""
+				},
+				"RED_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"AOC_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"BLUE_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"BLUE_LABEL_REMOVE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"GREEN_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"GRADE_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"BARCODE_QR_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CUSTCONTAINER": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_POS": {
+					"type": "integer",
+					"format": "int32",
+					"x-example": "1"
+				},
+				"VIN_ITEMSTATE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_SHIPMENTMETHOD": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_SOL_LINESTATUS": {
+					"type": "integer",
+					"format": "int32",
+					"x-example": "1"
+				},
+				"CUSTCONTAINER_ITEM": {
+					"type": "string",
+					"x-example": ""
+				}
+			}
+		}
+	},
+	"securityDefinitions": {
+		"Default": {
+			"description": "Default Authentication",
+			"type": "basic"
+		}
+	},
+	"security": [],
+	"tags": [
+		{
+			"name": "TBLEDI_MELS_TALLY_SHEET",
+			"description": "Operations about TBLEDI_MELS_TALLY_SHEET"
+		}
+	]
+}
