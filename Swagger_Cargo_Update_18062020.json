@@ -188,7 +188,7 @@
 		},
         "CUSTCONTAINER_ITEM": {
           "type": "string",
-          "x-example": ""
+          "x-example": "test-1"
         }
 	}    
 		}
