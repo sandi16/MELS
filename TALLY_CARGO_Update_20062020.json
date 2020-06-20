@@ -1,0 +1,192 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"title": "TeckWah Update Container Inspection",
+		"description": "defaultDescription",
+		"version": "0.1"
+	},
+	"host": "test3.vinfiniti.biz:8210",
+	"basePath": "/Vin3RService/rest/commonEdi",
+	"schemes": [
+		"https"
+	],
+	"paths": {
+		"/addOrUpdateEdiData/MELS/TBLEDI_MELS_TALLY_CARGO": {
+			"post": {
+				"tags": [
+					"CognitiveServices"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "body",
+						"schema": {
+							"type": "array",
+							"items": {
+								"$ref": "#/definitions/CargoDetails"
+							}
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "Success",
+						"schema": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	},
+	"definitions": {
+		"CargoDetails": {
+			"type": "object",
+			"properties": {
+				"VIN_CUSTSYSNO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CHECKING_DATE": {
+					"type": "string",
+					"format": "date-time",
+					"x-example": "2020-04-14T10:47:24"
+				},
+				"CONTAINER_NO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_GRADES": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_LOTNO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"TOTAL_CHECK": {
+					"type": "string",
+					"x-example": ""
+				},
+				"PURPOSE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CARGO_TYPE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"PACKING_TYPE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"STAINS_BAG": {
+					"type": "string",
+					"x-example": ""
+				},
+				"ANY_TAPES_ON_BAG": {
+					"type": "string",
+					"x-example": ""
+				},
+				"NO_DAMAGE_BAG": {
+					"type": "string",
+					"x-example": ""
+				},
+				"BOXES_CRITIEA_VME": {
+					"type": "string",
+					"x-example": ""
+				},
+				"PRINTING_GRADE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"BAGS_YELLOW_COLOR": {
+					"type": "string",
+					"x-example": ""
+				},
+				"SHRINK_WRAPS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CARGO_PACKS_VME": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CARDBOARD_SEPERATOR_VME": {
+					"type": "string",
+					"x-example": ""
+				},
+				"FOR_ANY_NO_ITEM": {
+					"type": "string",
+					"x-example": ""
+				},
+				"DEFECTS_STATE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CHECK_BY": {
+					"type": "string",
+					"x-example": ""
+				},
+				"SUPERVISOR": {
+					"type": "string",
+					"x-example": ""
+				},
+				"RED_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"AOC_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"BLUE_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"BLUE_LABEL_REMOVE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"GREEN_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"GRADE_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"BARCODE_QR_LABEL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"CUSTCONTAINER": {
+					"type": "string",
+					"x-example": "TriTest-1"
+				},
+				"VIN_SHIPMENTMETHOD": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_SOL_LINESTATUS": {
+					"type": "integer",
+					"format": "int32",
+					"x-example": "1"
+				}
+			}
+		}
+	},
+	"securityDefinitions": {
+		"Default": {
+			"description": "Default Authentication",
+			"type": "basic"
+		}
+	},
+	"security": [],
+	"tags": [
+		{
+			"name": "TBLEDI_MELS_TALLY_CARGO",
+			"description": "Operations about updating values using TBLEDI_MELS_TALLY_CARGO"
+		}
+	]
+}
