@@ -172,10 +172,6 @@
           "type": "integer",
           "format": "int32",
           "x-example": "1"
-        },
-        "VME_B113838": {
-          "type": "string",
-          "x-example": ""
         }
 	}    
 		}
