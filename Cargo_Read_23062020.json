@@ -75,7 +75,9 @@
 							"FOR_ANY_NO_ITEM": null,
 							"DEFECTS_STATE": null,
 							"CARGO_PACKS_VME": null,
-							"ANY_TAPES_ON_BAG": null
+							"ANY_TAPES_ON_BAG": null,
+							"FOR_ANY_NO_ITEM_MEMO": null,
+							"FOR_OTHER_DEFECTS_MEMO": null
 						}
 					}
 				}
@@ -249,7 +251,15 @@
 					"type": "integer",
 					"format": "int32",
 					"x-example": "1"
-				}
+				},
+					"FOR_ANY_NO_ITEM_MEMO": {
+					"type": "string",
+					"x-example": ""
+				},
+					"FOR_OTHER_DEFECTS_MEMO": {
+					"type": "string",
+					"x-example": ""
+				},
 			}
 		}
 	},
