@@ -172,7 +172,15 @@
           "type": "integer",
           "format": "int32",
           "x-example": "1"
-        }
+        },
+		  "FOR_ANY_NO_ITEM_MEMO": {
+          "type": "string",
+          "x-example": ""
+        },
+		  "FOR_OTHER_DEFECTS_MEMO": {
+          "type": "string",
+          "x-example": ""
+        },
 	}    
 		}
 	},
