@@ -39,70 +39,71 @@
 					"200": {
 						"description": "OK",
 						"schema": {
-								"$ref": "#/definitions/CUSTCONTAINERWrapper"
-							}
-						},
-						"examples": {
-							"application/json": {
-										"VIN_CUSTSYSNO": "Cargo-T1-1",
-										"VIN_TYPE_OF_JOB": null,
-										"VIN_CARRIER": null,
-										"VIN_HAULIER": null,
-										"VIN_TYPE_OF_CONTAINER": null,
-										"LOADING_PLACE": null,
-										"SBU_LOCATION": null,
-										"FINAL_DISPOSITION": null,
-										"CONTAINER_NO": null,
-										"SEAL_SECURITY": null,
-										"SEAL_AFFIXED": null,
-										"SEAL_NO": null,
-										"INSPECTOR_NAME": null,
-										"INSPECTOR_DATE": null,
-										"REVIEWER_NAME": null,
-										"REVIEWER_DATE": "11",
-										"OUTSIDE_CARRIAGE_CHECK": null,
-										"OUTSIDE_CARRIAGE_PROBLEMS": null,
-										"DOORS_CHECK": null,
-										"DOORS_PROBLEMS": null,
-										"RIGHT_SIDE_CHECK": null,
-										"RIGHT_SIDE_PROBLEMS": null,
-										"LEFT_SIDE_CHECK": null,
-										"LEFT_SIDE_PROBLEMS": null,
-										"FRONT_WALL_CHECK": null,
-										"FRONT_WALL_PROBLEMS": null,
-										"CEILING_CHECK": null,
-										"CEILING_PROBLEMS": null,
-										"FLOOR_CHECK": null,
-										"FLOOR_PROBLEMS": null,
-										"OTHERS_CHECK": null,
-										"OTHERS_PROBLEMS": null,
-										"CUSTCONTAINER": null
-									}
-								}
-							}
-						},
-						"security": [
-						{
-							"Default": []
+							"$ref": "#/definitions/CUSTCONTAINERWrapper"
 						}
-				]
+					},
+					"examples": {
+						"application/json": {
+							"VIN_CUSTSYSNO": "Cargo-T1-1",
+							"VIN_TYPE_OF_JOB": null,
+							"VIN_CARRIER": null,
+							"VIN_HAULIER": null,
+							"VIN_TYPE_OF_CONTAINER": null,
+							"LOADING_PLACE": null,
+							"SBU_LOCATION": null,
+							"FINAL_DISPOSITION": null,
+							"CONTAINER_NO": null,
+							"SEAL_SECURITY": null,
+							"SEAL_AFFIXED": null,
+							"SEAL_NO": null,
+							"INSPECTOR_NAME": null,
+							"INSPECTOR_DATE": null,
+							"REVIEWER_NAME": null,
+							"REVIEWER_DATE": "11",
+							"OUTSIDE_CARRIAGE_CHECK": null,
+							"OUTSIDE_CARRIAGE_PROBLEMS": null,
+							"DOORS_CHECK": null,
+							"DOORS_PROBLEMS": null,
+							"RIGHT_SIDE_CHECK": null,
+							"RIGHT_SIDE_PROBLEMS": null,
+							"LEFT_SIDE_CHECK": null,
+							"LEFT_SIDE_PROBLEMS": null,
+							"FRONT_WALL_CHECK": null,
+							"FRONT_WALL_PROBLEMS": null,
+							"CEILING_CHECK": null,
+							"CEILING_PROBLEMS": null,
+							"FLOOR_CHECK": null,
+							"FLOOR_PROBLEMS": null,
+							"OTHERS_CHECK": null,
+							"OTHERS_PROBLEMS": null,
+							"CUSTCONTAINER": null,
+							"TYPE_OF_CONTAINER_MEMO": null
+						}
+					}
+				}
+			},
+			"security": [
+				{
+					"Default": []
+				}
+			]
+		}
+	},
+	"definitions": {
+		"CUSTCONTAINERWrapper": {
+			"type": "object",
+			"properties": {
+				"data": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/ReadContainer"
+					}
+				},
+				"count": {
+					"type": "integer"
+				}
 			}
 		},
-	"definitions": {
-	  "CUSTCONTAINERWrapper": {
-      "type": "object",
-      "properties": {
-        "data": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/ReadContainer"
-            }
-        },
-        "count": {
-          "type": "integer"
-        }
-      }
-    },
 		"CUSTCONTAINER": {
 			"description": "Model for CUSTCONTAINER",
 			"required": [
@@ -252,6 +253,10 @@
 					"x-example": ""
 				},
 				"OTHERS_PROBLEMS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"TYPE_OF_CONTAINER_MEMO": {
 					"type": "string",
 					"x-example": ""
 				}
