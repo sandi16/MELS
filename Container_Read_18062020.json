@@ -272,8 +272,8 @@
 	"security": [],
 	"tags": [
 		{
-			"name": "TBLEDI_MELS_TALLY_SHEET",
-			"description": "Operations about TBLEDI_MELS_TALLY_SHEET"
+			"name": "TBLEDI_MELS_TALLY_CONTAINER",
+			"description": "Operations about TBLEDI_MELS_TALLY_CONTAINER"
 		}
 	]
 }
