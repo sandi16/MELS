@@ -176,6 +176,10 @@
         "CUSTCONTAINER": {
           "type": "string",
           "x-example": "test-1"
+        },
+	"TYPE_OF_CONTAINER_MEMO": {
+          "type": "string",
+          "x-example": ""
         }
 	}    
 		}
