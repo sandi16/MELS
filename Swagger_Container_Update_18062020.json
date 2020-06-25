@@ -177,7 +177,11 @@
           "type": "string",
           "x-example": "test-1"
         },
-		"TYPE_OF_CONTAINER_MEMO": {
+	"TYPE_OF_CONTAINER_MEMO": {
+          "type": "string",
+          "x-example": ""
+        },
+	"LOADING_PLACE_MEMO": {
           "type": "string",
           "x-example": ""
         }
