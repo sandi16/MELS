@@ -134,7 +134,8 @@
 										"VME_LUBRIZOL_A5PAPER": null,
 										"SHIPMENT_TYPE": null,
 										"K2_STATUS": null,
-										"VIN_PACKINGSTATUS": null
+										"VIN_PACKINGSTATUS": null,
+										"VIN_SHIPPINGREMARK_SHR":null
 									}
 								}
 							}
@@ -543,6 +544,10 @@
 					"x-example": ""
 				},
 				"VIN_PACKINGSTATUS": {
+					"type": "string",
+					"x-example":""
+				},
+				"VIN_SHIPPINGREMARK_SHR": {
 					"type": "string",
 					"x-example":""
 				}
