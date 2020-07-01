@@ -410,6 +410,10 @@
 					"type": "string",
 					"x-example": ""
 				}
+				"VIN_SHIPPINGREMARK_SHR": {
+					"type": "string",
+					"x-example": ""
+				}
 			}
 		}
 	},
