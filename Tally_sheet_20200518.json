@@ -132,7 +132,9 @@
 										"BAY_NO": null,
 										"SHR_TYPE2_CHECKBOX": null,
 										"VME_LUBRIZOL_A5PAPER": null,
-										"SHIPMENT_TYPE": null
+										"SHIPMENT_TYPE": null,
+										"K2_STATUS": null,
+										"VIN_PACKINGSTATUS": null
 									}
 								}
 							}
@@ -535,6 +537,14 @@
 				"WEATHER_CONDITION": {
 					"type": "string",
 					"x-example": ""
+				},
+				"K2_STATUS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_PACKINGSTATUS": {
+					"type": "string",
+					"x-example":""
 				}
 			}
 		}
