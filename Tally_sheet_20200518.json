@@ -39,128 +39,128 @@
 					"200": {
 						"description": "OK",
 						"schema": {
-								"$ref": "#/definitions/CustContainerNoWrapper"
-							}
-						},
-						"examples": {
-							"application/json": {
-										"SHR_PALLETIZE_WSL_CHECKBOX": null,
-										"SHR_VERIFIED_BY_CS": null,
-										"VIN_SHIPMENTMETHOD": "LCL",
-										"SHR_LOOSE_WSL_CHECKBOX": null,
-										"SHR_LASHING_COVER": null,
-										"SHR_TIMBER_8FT": null,
-										"SHR_CARDBOARD_PEFOAM_QTY": null,
-										"VME_LABELS_TOTAL_QTY": null,
-										"SHR_TYPE3_CHECKBOX": null,
-										"SHR_PALLETIZE_CHECKBOX": null,
-										"SHR_MEMO": null,
-										"SHR_CARDBOARD_AIRBAG_CHECKBOX": null,
-										"VME_SA_350_CHECKBOX": null,
-										"SHR_SUPPLY_PALLET": null,
-										"CONTAINER_NO": null,
-										"VIN_REFB_AWB": "11",
-										"VME_SHANGHAI_CHECKBOX": null,
-										"VME_ZHUHAI_A5PAPER_CHECKBOX": null,
-										"VME_B113838_CHECKBOX": null,
-										"VME_SHANGHAI_A5PAPER": null,
-										"SHR_RE_PALLETIZATION": null,
-										"SHR_CARDBOARD_PEFOAM_CHECKBOX": null,
-										"VME_LOA_386": null,
-										"VME_SOIL_CHECKBOX": null,
-										"GIN": null,
-										"SHR_LOOSE_CHECKBOX": null,
-										"VME_GS_CALTEX_CHECKBOX": null,
-										"VME_ZHUHAI_A5PAPER": null,
-										"SHR_OTHERS_MEMO": null,
-										"SHR_CARDBOARD_AIRBAG_QTY": null,
-										"VIN_REFC": "1",
-										"GRN_CHECKBOX": null,
-										"VME_SHANGHAI_A5PAPER_CHECKBOX": null,
-										"VME_B113838": null,
-										"SHR_TIMBER_220CM": null,
-										"VIN_REFM_PROGRAMTYPE": "VME",
-										"VIN_DELIVERYMETHOD": "LOCAL",
-										"VIN_PLANNEDDELIVERYDATE_ETD": "2020-04-14T10:47:24",
-										"SHR_CARDBOARD_TYGUARD_QTY": null,
-										"SHR_RFC_PLTS_CHECKBOX": null,
-										"VIN_REFG_POD": "Singapore",
-										"GRN": null,
-										"VIN_REFA_VESSEL": "11",
-										"SHR_TYPE1_CHECKBOX": null,
-										"SHR_CARDBOARD_1PLY_CHECKBOX": null,
-										"VIN_SOL_LINESTATUS": 1,
-										"ETA_CHECKBOX": null,
-										"SHR_SHIPPING_MARKS": null,
-										"VME_SA_350": null,
-										"SHR_CARDBOARD_6PLY_CHECKBOX": null,
-										"SIZE_TYPE": null,
-										"SHR_CARDBOARD_TYGUARD_CHECKBOX": null,
-										"SHR_SUPPLY_LABELS": null,
-										"VIN_PLANNEDRECEIVEDDATE_ETA": "2020-04-14T10:47:24",
-										"WEATHER_CONDITION": null,
-										"VME_ZHUHAI_TRADING_CHECKBOX": null,
-										"VME_SHIPPING_KR_CH": null,
-										"TARE_GROSS_WEIGHT": null,
-										"SHR_CHECKED_BY_TALLY": null,
-										"SHR_CARDBOARD_3PLY_QTY": null,
-										"SEAL_NO": null,
-										"ETD_CHECKBOX": null,
-										"SHR_REQUIRED_MEMO": null,
-										"SHR_CARDBOARD_2PLY_CHECKBOX": null,
-										"VIN_REFC_VOY": "1",
-										"SHR_CARDBOARD_3PLY_CHECKBOX": null,
-										"SHR_CARDBOARD_1PLY_QTY": null,
-										"SHR_CARDBOARD_2PLY_QTY": null,
-										"SHR_RED_MARKING": null,
-										"SHR_SLIPPED_SHEETS": null,
-										"SHR_POCKET": null,
-										"SHR_BREAK_PALLET": null,
-										"VME_LUBRIZOL_CHECKBOX": null,
-										"SHR_SHRINK_WRAPPED": null,
-										"SHR_SAFETY_SHEET": null,
-										"SHR_STRAPPING": null,
-										"SHR_1PLY": null,
-										"SHR_TOTAL_QTY": null,
-										"VME_LUBRIZOL_A5PAPER_CHECKBOX": null,
-										"CUSTCONTAINER": "Cargo-T1-1",
-										"VME_SK_LUBRICANT_CHECKBOX": null,
-										"GIN_CHECKBOX": null,
-										"VIN_CUSTSYSNO": "Cargo-T1",
-										"VME_LOA_386_CHECKBOX": null,
-										"BAY_NO": null,
-										"SHR_TYPE2_CHECKBOX": null,
-										"VME_LUBRIZOL_A5PAPER": null,
-										"SHIPMENT_TYPE": null,
-										"K2_STATUS": null,
-										"VIN_PACKINGSTATUS": null,
-										"VIN_SHIPPINGREMARK_SHR":null
-									}
-								}
-							}
-						},
-						"security": [
-						{
-							"Default": []
+							"$ref": "#/definitions/CustContainerNoWrapper"
 						}
-				]
+					},
+					"examples": {
+						"application/json": {
+							"SHR_PALLETIZE_WSL_CHECKBOX": null,
+							"SHR_VERIFIED_BY_CS": null,
+							"VIN_SHIPMENTMETHOD": "LCL",
+							"SHR_LOOSE_WSL_CHECKBOX": null,
+							"SHR_LASHING_COVER": null,
+							"SHR_TIMBER_8FT": null,
+							"SHR_CARDBOARD_PEFOAM_QTY": null,
+							"VME_LABELS_TOTAL_QTY": null,
+							"SHR_TYPE3_CHECKBOX": null,
+							"SHR_PALLETIZE_CHECKBOX": null,
+							"SHR_MEMO": null,
+							"SHR_CARDBOARD_AIRBAG_CHECKBOX": null,
+							"VME_SA_350_CHECKBOX": null,
+							"SHR_SUPPLY_PALLET": null,
+							"CONTAINER_NO": null,
+							"VIN_REFB_AWB": "11",
+							"VME_SHANGHAI_CHECKBOX": null,
+							"VME_ZHUHAI_A5PAPER_CHECKBOX": null,
+							"VME_B113838_CHECKBOX": null,
+							"VME_SHANGHAI_A5PAPER": null,
+							"SHR_RE_PALLETIZATION": null,
+							"SHR_CARDBOARD_PEFOAM_CHECKBOX": null,
+							"VME_LOA_386": null,
+							"VME_SOIL_CHECKBOX": null,
+							"GIN": null,
+							"SHR_LOOSE_CHECKBOX": null,
+							"VME_GS_CALTEX_CHECKBOX": null,
+							"VME_ZHUHAI_A5PAPER": null,
+							"SHR_OTHERS_MEMO": null,
+							"SHR_CARDBOARD_AIRBAG_QTY": null,
+							"VIN_REFC": "1",
+							"GRN_CHECKBOX": null,
+							"VME_SHANGHAI_A5PAPER_CHECKBOX": null,
+							"VME_B113838": null,
+							"SHR_TIMBER_220CM": null,
+							"VIN_REFM_PROGRAMTYPE": "VME",
+							"VIN_DELIVERYMETHOD": "LOCAL",
+							"VIN_PLANNEDDELIVERYDATE_ETD": "2020-04-14T10:47:24",
+							"SHR_CARDBOARD_TYGUARD_QTY": null,
+							"SHR_RFC_PLTS_CHECKBOX": null,
+							"VIN_REFG_POD": "Singapore",
+							"GRN": null,
+							"VIN_REFA_VESSEL": "11",
+							"SHR_TYPE1_CHECKBOX": null,
+							"SHR_CARDBOARD_1PLY_CHECKBOX": null,
+							"VIN_SOL_LINESTATUS": 1,
+							"ETA_CHECKBOX": null,
+							"SHR_SHIPPING_MARKS": null,
+							"VME_SA_350": null,
+							"SHR_CARDBOARD_6PLY_CHECKBOX": null,
+							"SIZE_TYPE": null,
+							"SHR_CARDBOARD_TYGUARD_CHECKBOX": null,
+							"SHR_SUPPLY_LABELS": null,
+							"VIN_PLANNEDRECEIVEDDATE_ETA": "2020-04-14T10:47:24",
+							"WEATHER_CONDITION": null,
+							"VME_ZHUHAI_TRADING_CHECKBOX": null,
+							"VME_SHIPPING_KR_CH": null,
+							"TARE_GROSS_WEIGHT": null,
+							"SHR_CHECKED_BY_TALLY": null,
+							"SHR_CARDBOARD_3PLY_QTY": null,
+							"SEAL_NO": null,
+							"ETD_CHECKBOX": null,
+							"SHR_REQUIRED_MEMO": null,
+							"SHR_CARDBOARD_2PLY_CHECKBOX": null,
+							"VIN_REFC_VOY": "1",
+							"SHR_CARDBOARD_3PLY_CHECKBOX": null,
+							"SHR_CARDBOARD_1PLY_QTY": null,
+							"SHR_CARDBOARD_2PLY_QTY": null,
+							"SHR_RED_MARKING": null,
+							"SHR_SLIPPED_SHEETS": null,
+							"SHR_POCKET": null,
+							"SHR_BREAK_PALLET": null,
+							"VME_LUBRIZOL_CHECKBOX": null,
+							"SHR_SHRINK_WRAPPED": null,
+							"SHR_SAFETY_SHEET": null,
+							"SHR_STRAPPING": null,
+							"SHR_1PLY": null,
+							"SHR_TOTAL_QTY": null,
+							"VME_LUBRIZOL_A5PAPER_CHECKBOX": null,
+							"CUSTCONTAINER": "Cargo-T1-1",
+							"VME_SK_LUBRICANT_CHECKBOX": null,
+							"GIN_CHECKBOX": null,
+							"VIN_CUSTSYSNO": "Cargo-T1",
+							"VME_LOA_386_CHECKBOX": null,
+							"BAY_NO": null,
+							"SHR_TYPE2_CHECKBOX": null,
+							"VME_LUBRIZOL_A5PAPER": null,
+							"SHIPMENT_TYPE": null,
+							"K2_STATUS": null,
+							"VIN_PACKINGSTATUS": null,
+							"VIN_SHIPPINGREMARK_SHR": null
+						}
+					}
+				}
+			},
+			"security": [
+				{
+					"Default": []
+				}
+			]
+		}
+	},
+	"definitions": {
+		"CustContainerNoWrapper": {
+			"type": "object",
+			"properties": {
+				"data": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/ReadTallySheet"
+					}
+				},
+				"count": {
+					"type": "integer"
+				}
 			}
 		},
-	"definitions": {
-	  "CustContainerNoWrapper": {
-      "type": "object",
-      "properties": {
-        "data": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/ReadTallySheet"
-            }
-        },
-        "count": {
-          "type": "integer"
-        }
-      }
-    },
 		"CustContainerNo": {
 			"description": "Model for CustContainerNo",
 			"required": [
@@ -511,9 +511,9 @@
 					"x-example": ""
 				},
 				"VME_SK_LUBRICANT_CHECKBOX": {
-					"type": "string",F
+					"type": "string",
 					"x-example": ""
-				},F
+				},
 				"VME_SOIL_CHECKBOX": {
 					"type": "string",
 					"x-example": ""
@@ -540,11 +540,11 @@
 				},
 				"VIN_PACKINGSTATUS": {
 					"type": "string",
-					"x-example":""
+					"x-example": ""
 				},
 				"VIN_SHIPPINGREMARK_SHR": {
 					"type": "string",
-					"x-example":""
+					"x-example": ""
 				}
 			}
 		}
