@@ -85,7 +85,6 @@
 										"SHR_CARDBOARD_TYGUARD_QTY": null,
 										"SHR_RFC_PLTS_CHECKBOX": null,
 										"VIN_REFG_POD": "Singapore",
-										"TALLY_SHEET_K2_STATUS": null,
 										"GRN": null,
 										"VIN_REFA_VESSEL": "11",
 										"SHR_TYPE1_CHECKBOX": null,
@@ -396,10 +395,6 @@
 					"type": "string",
 					"x-example": ""
 				},
-				"TALLY_SHEET_K2_STATUS": {
-					"type": "string",
-					"x-example": ""
-				},
 				"TARE_GROSS_WEIGHT": {
 					"type": "string",
 					"x-example": ""
@@ -516,9 +511,9 @@
 					"x-example": ""
 				},
 				"VME_SK_LUBRICANT_CHECKBOX": {
-					"type": "string",
+					"type": "string",F
 					"x-example": ""
-				},
+				},F
 				"VME_SOIL_CHECKBOX": {
 					"type": "string",
 					"x-example": ""
