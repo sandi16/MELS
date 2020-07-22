@@ -291,11 +291,11 @@
 					"type": "string",
 					"x-example": ""
 				},
-				"SHR_LOOSE_CHECKBOX": {
+				"SHR_SUPPLY_PALLET_CHB": {
 					"type": "string",
 					"x-example": ""
 				},
-				"SHR_LOOSE_WSL_CHECKBOX": {
+				"SHR_RE_PALLETIZATION_CHB": {
 					"type": "string",
 					"x-example": ""
 				},
@@ -307,11 +307,11 @@
 					"type": "string",
 					"x-example": ""
 				},
-				"SHR_PALLETIZE_CHECKBOX": {
+				"SHR_SHRINK_WRAPPED_CHB": {
 					"type": "string",
 					"x-example": ""
 				},
-				"SHR_PALLETIZE_WSL_CHECKBOX": {
+				"SHR_BREAK_PALLET_CHB": {
 					"type": "string",
 					"x-example": ""
 				},
@@ -331,7 +331,7 @@
 					"type": "string",
 					"x-example": ""
 				},
-				"SHR_RFC_PLTS_CHECKBOX": {
+				"SHR_SLIPPED_SHEET_CHB": {
 					"type": "string",
 					"x-example": ""
 				},
@@ -375,15 +375,15 @@
 					"type": "string",
 					"x-example": ""
 				},
-				"SHR_TYPE1_CHECKBOX": {
+				"SHR_LASHING_COVER_CHB": {
 					"type": "string",
 					"x-example": ""
 				},
-				"SHR_TYPE2_CHECKBOX": {
+				"SHR_STRAPPING_CHB": {
 					"type": "string",
 					"x-example": ""
 				},
-				"SHR_TYPE3_CHECKBOX": {
+				"SHR_SUPPLY_LABELS_CHB": {
 					"type": "string",
 					"x-example": ""
 				},
@@ -543,6 +543,14 @@
 					"x-example": ""
 				},
 				"VIN_SHIPPINGREMARK_SHR": {
+					"type": "string",
+					"x-example": ""
+				}
+				"SHR_POCKET_CHB": {
+					"type": "string",
+					"x-example": ""
+				}
+				"SHR_1PLY_CHB": {
 					"type": "string",
 					"x-example": ""
 				}
