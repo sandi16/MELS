@@ -547,11 +547,11 @@
 				"VIN_SHIPPINGREMARK_SHR": {
 					"type": "string",
 					"x-example": ""
-				}
+				},
 				"SHR_POCKET_CHB": {
 					"type": "string",
 					"x-example": ""
-				}
+				},
 				"SHR_1PLY_CHB": {
 					"type": "string",
 					"x-example": ""
