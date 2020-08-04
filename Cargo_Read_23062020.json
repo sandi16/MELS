@@ -72,12 +72,16 @@
 							"VIN_CUSTSYSNO": "TriTest",
 							"CARGO_TYPE": "K2",
 							"CHECKING_DATE": "2020-06-22T00:00:00",
-							"FOR_ANY_NO_ITEM": null,
-							"DEFECTS_STATE": null,
 							"CARGO_PACKS_VME": null,
 							"ANY_TAPES_ON_BAG": null,
 							"FOR_ANY_NO_ITEM_MEMO": null,
-							"FOR_OTHER_DEFECTS_MEMO": null
+							"FOR_OTHER_DEFECTS_MEMO": null,
+							"STRETCHFILM_WRAPS": null,
+							"PALLETS_SHRINK_WRAPS": null,
+							"WOODEN_MATERIALS_ISPM": null,
+							"QR_LABEL_PASTE": null,
+							"NO_PALLETS_DAMAGE": null,
+							"SHRINK_WRAPS_MID_PORTION": null
 						}
 					}
 				}
@@ -195,14 +199,6 @@
 					"type": "string",
 					"x-example": ""
 				},
-				"FOR_ANY_NO_ITEM": {
-					"type": "string",
-					"x-example": ""
-				},
-				"DEFECTS_STATE": {
-					"type": "string",
-					"x-example": ""
-				},
 				"CHECK_BY": {
 					"type": "string",
 					"x-example": ""
@@ -252,14 +248,38 @@
 					"format": "int32",
 					"x-example": "1"
 				},
-					"FOR_ANY_NO_ITEM_MEMO": {
+				"FOR_ANY_NO_ITEM_MEMO": {
 					"type": "string",
 					"x-example": ""
 				},
-					"FOR_OTHER_DEFECTS_MEMO": {
+				"FOR_OTHER_DEFECTS_MEMO": {
 					"type": "string",
 					"x-example": ""
 				},
+				"QR_LABEL_PASTE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"NO_PALLETS_DAMAGE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"STRETCHFILM_WRAPS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"PALLETS_SHRINK_WRAPS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"WOODEN_MATERIALS_ISPM": {
+					"type": "string",
+					"x-example": ""
+				},
+				"SHRINK_WRAPS_MID_PORTION": {
+					"type": "string",
+					"x-example": ""
+				}
 			}
 		}
 	},
