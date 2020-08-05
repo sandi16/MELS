@@ -204,6 +204,14 @@
 				"SHRINK_WRAPS_MID_PORTION": {
 					"type": "string",
 					"x-example": ""
+				},
+				"PE_FOAM_PLACED": {
+					"type": "string",
+					"x-example": ""
+				},
+				"NO_MISSING_BAGS": {
+					"type": "string",
+					"x-example": ""
 				}
 			}
 		}
