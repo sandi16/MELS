@@ -26,12 +26,12 @@
 				],
 				"parameters": [
 					{
-						"name": "CUSTCONTAINER",
+						"name": "CustContainerNo",
 						"in": "body",
 						"description": "Cust_ContainerNo",
 						"required": true,
 						"schema": {
-							"$ref": "#/definitions/CUSTCONTAINER"
+							"$ref": "#/definitions/CustContainerNo"
 						}
 					}
 				],
@@ -39,12 +39,12 @@
 					"200": {
 						"description": "OK",
 						"schema": {
-							"$ref": "#/definitions/CUSTCONTAINERWrapper"
+							"$ref": "#/definitions/CustContainerNoWrapper"
 						}
 					},
 					"examples": {
 						"application/json": {
-							"VIN_CUSTSYSNO": "Cargo-T1-1",
+							"VIN_CUSTSYSNO": null,
 							"VIN_TYPE_OF_JOB": null,
 							"VIN_CARRIER": null,
 							"VIN_HAULIER": null,
@@ -59,7 +59,7 @@
 							"INSPECTOR_NAME": null,
 							"INSPECTOR_DATE": null,
 							"REVIEWER_NAME": null,
-							"REVIEWER_DATE": "11",
+							"REVIEWER_DATE": null,
 							"OUTSIDE_CARRIAGE_CHECK": null,
 							"OUTSIDE_CARRIAGE_PROBLEMS": null,
 							"DOORS_CHECK": null,
@@ -77,7 +77,8 @@
 							"OTHERS_CHECK": null,
 							"OTHERS_PROBLEMS": null,
 							"CUSTCONTAINER": null,
-							"TYPE_OF_CONTAINER_MEMO": null
+							"TYPE_OF_CONTAINER_MEMO": null,
+							"LOADING_PLACE_MEMO": null
 						}
 					}
 				}
@@ -90,7 +91,7 @@
 		}
 	},
 	"definitions": {
-		"CUSTCONTAINERWrapper": {
+		"CustContainerNoWrapper": {
 			"type": "object",
 			"properties": {
 				"data": {
@@ -104,8 +105,8 @@
 				}
 			}
 		},
-		"CUSTCONTAINER": {
-			"description": "Model for CUSTCONTAINER",
+		"CustContainerNo": {
+			"description": "Model for CustContainerNo",
 			"required": [
 				"CUSTCONTAINER"
 			],
@@ -116,16 +117,12 @@
 				}
 			}
 		},
-		"ReadContainer": {
-			"description": "Model for ReadContainer",
+		"ReadCargo": {
+			"description": "Model for ReadCargo",
 			"required": [
-				"CUSTCONTAINER"
+				"VIN_CUSTSYSNO"
 			],
 			"properties": {
-				"CUSTCONTAINER": {
-					"type": "string",
-					"x-example": ""
-				},
 				"VIN_CUSTSYSNO": {
 					"type": "string",
 					"x-example": ""
@@ -136,7 +133,7 @@
 				},
 				"VIN_CARRIER": {
 					"type": "string",
-					"x-example": ""
+					"x-example": "1"
 				},
 				"VIN_HAULIER": {
 					"type": "string",
@@ -245,8 +242,9 @@
 					"x-example": ""
 				},
 				"FLOOR_PROBLEMS": {
-					"type": "string",
-					"x-example": ""
+					"type": "integer",
+					"format": "int32",
+					"x-example": "1"
 				},
 				"OTHERS_CHECK": {
 					"type": "string",
@@ -256,7 +254,15 @@
 					"type": "string",
 					"x-example": ""
 				},
+				"CUSTCONTAINER": {
+					"type": "string",
+					"x-example": ""
+				},
 				"TYPE_OF_CONTAINER_MEMO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"LOADING_PLACE_MEMO": {
 					"type": "string",
 					"x-example": ""
 				}
