@@ -117,8 +117,8 @@
 				}
 			}
 		},
-		"ReadCargo": {
-			"description": "Model for ReadCargo",
+		"ReadContainer": {
+			"description": "Model for ReadContainer",
 			"required": [
 				"VIN_CUSTSYSNO"
 			],
