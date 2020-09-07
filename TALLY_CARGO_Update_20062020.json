@@ -212,6 +212,10 @@
 				"NO_MISSING_BAGS": {
 					"type": "string",
 					"x-example": ""
+				},
+				"NO_FOREIGN_OBJECTS": {
+					"type": "string",
+					"x-example": ""
 				}
 			}
 		}
