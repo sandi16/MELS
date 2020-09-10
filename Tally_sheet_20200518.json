@@ -136,7 +136,8 @@
 							"VIN_PACKINGSTATUS": null,
 							"VIN_SHIPPINGREMARK_SHR": null,
 							"SHR_POCKET_CHB":null,
-							"SHR_1PLY_CHB": null
+							"SHR_1PLY_CHB": null,
+							"ETA_SG":null
 						}
 					}
 				}
@@ -553,6 +554,10 @@
 					"x-example": ""
 				},
 				"SHR_1PLY_CHB": {
+					"type": "string",
+					"x-example": ""
+				},
+				"ETA_SG": {
 					"type": "string",
 					"x-example": ""
 				}
