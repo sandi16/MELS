@@ -417,6 +417,10 @@
 				"SHR_1PLY_CHB": {
 					"type": "string",
 					"x-example": ""
+				},
+				"ETA_SG": {
+					"type": "string",
+					"x-example": ""
 				}
 			}
 		}
