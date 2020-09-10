@@ -423,7 +423,7 @@
 					"x-example": ""
 				},
 				"ETA_SG_DATE": {
-					"type": "string",
+					"type": "date-time",
 					"x-ecample": ""
 				}
 			}
