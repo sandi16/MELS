@@ -84,7 +84,10 @@
 							"SHRINK_WRAPS_MID_PORTION": null,
 							"PE_FOAM_PLACED": null,
 							"NO_MISSING_BAGS": null,
-							"NO_FOREIGN_OBJECTS": null
+							"NO_FOREIGN_OBJECTS": null,
+							"REFM_PROGRAMTYPE":null,
+							"ITEMSTATE":null,
+							"LUBRIZOL":null
 						}
 					}
 				}
@@ -292,6 +295,18 @@
 					"x-example": ""
 				},
 				"NO_FOREIGN_OBJECTS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"REFM_PROGRAMTYPE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"ITEMSTATE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"LUBRIZOL": {
 					"type": "string",
 					"x-example": ""
 				}
