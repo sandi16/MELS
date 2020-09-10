@@ -137,7 +137,8 @@
 							"VIN_SHIPPINGREMARK_SHR": null,
 							"SHR_POCKET_CHB":null,
 							"SHR_1PLY_CHB": null,
-							"ETA_SG":null
+							"ETA_SG":null,
+							"ETA_SG_DATE": null
 						}
 					}
 				}
@@ -560,8 +561,12 @@
 				"ETA_SG": {
 					"type": "string",
 					"x-example": ""
+				},
+				"ETA_SG_DATE": {
+					"type": "date-time",
+					"x-example": ""
 				}
-			}
+				}
 		}
 	},
 	"securityDefinitions": {
