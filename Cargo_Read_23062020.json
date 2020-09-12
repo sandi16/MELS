@@ -87,7 +87,8 @@
 							"NO_FOREIGN_OBJECTS": null,
 							"REFM_PROGRAMTYPE":null,
 							"ITEMSTATE":null,
-							"LUBRIZOL":null
+							"LUBRIZOL":null,
+							"TAF_PE_FOAM":null
 						}
 					}
 				}
@@ -307,6 +308,10 @@
 					"x-example": ""
 				},
 				"LUBRIZOL": {
+					"type": "string",
+					"x-example": ""
+				},
+				"TAF_PE_FOAM": {
 					"type": "string",
 					"x-example": ""
 				}
