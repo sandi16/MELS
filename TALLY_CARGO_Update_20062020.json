@@ -228,6 +228,10 @@
 				"LUBRIZOL": {
 					"type": "string",
 					"x-example": ""
+				},
+				"TAF_PE_FOAM": {
+					"type": "string",
+					"x-example": ""
 				}
 			}
 		}
