@@ -78,7 +78,12 @@
 							"OTHERS_PROBLEMS": null,
 							"CUSTCONTAINER": null,
 							"TYPE_OF_CONTAINER_MEMO": null,
-							"LOADING_PLACE_MEMO": null
+							"LOADING_PLACE_MEMO": null,
+							"K2_CONTAINERNO":null,
+							"K2_SEALNO":null,
+							"SEAL_HIGH_REASONS":null,
+							"SEAL_HIGH_MEMO":null
+							
 						}
 					}
 				}
@@ -263,6 +268,22 @@
 					"x-example": ""
 				},
 				"LOADING_PLACE_MEMO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"K2_CONTAINERNO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"K2_SEALNO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"SEAL_HIGH_REASONS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"SEAL_HIGH_MEMO": {
 					"type": "string",
 					"x-example": ""
 				}
