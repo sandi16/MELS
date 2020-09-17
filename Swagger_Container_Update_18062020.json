@@ -200,6 +200,10 @@
 				"SEAL_HIGH_MEMO": {
 					"type": "string",
 					"x-example": ""
+				},
+				"ADMIN_RE_CHECK_MEMO": {
+					"type": "string",
+					"x-example": ""
 				}
 			}
 		}
