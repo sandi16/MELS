@@ -82,7 +82,8 @@
 							"K2_CONTAINERNO":null,
 							"K2_SEALNO":null,
 							"SEAL_HIGH_REASONS":null,
-							"SEAL_HIGH_MEMO":null
+							"SEAL_HIGH_MEMO":null,
+							"ADMIN_RE_CHECK_MEMO":null
 							
 						}
 					}
@@ -284,6 +285,10 @@
 					"x-example": ""
 				},
 				"SEAL_HIGH_MEMO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"ADMIN_RE_CHECK_MEMO": {
 					"type": "string",
 					"x-example": ""
 				}
