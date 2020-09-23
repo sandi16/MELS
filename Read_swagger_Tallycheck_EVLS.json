@@ -274,7 +274,8 @@
 							"MATERIAL_WEIGHT": null,
 							"TOTAL_WEIGHT": null,
 							"VIN_TOTAL_WEIGHT": null,
-							"EVLS_REMARKS":null
+							"EVLS_REMARKS":null,
+							"K2_STATUS":null
 						}
 					}
 				}
@@ -1242,6 +1243,10 @@
 					"x-example": ""
 				},
 				"EVLS_REMARKS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"K2_STATUS": {
 					"type": "string",
 					"x-example": ""
 				}
