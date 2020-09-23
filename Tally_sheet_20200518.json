@@ -140,7 +140,8 @@
 							"ETA_SG":null,
 							"ETA_SG_DATE": null,
 							"TRUCK_IN_DATE": null,
-							"K2_TALLY_CLARK_STATUS": null
+							"K2_TALLY_CLARK_STATUS": null,
+							"SHR_CARDBOARD_6PLY_QTY": null
 						}
 					}
 				}
@@ -575,6 +576,10 @@
 				"K2_TALLY_CLARK_STATUS": {
 					"type": "string",
 					"x-example": ""
+				},
+				"SHR_CARDBOARD_6PLY_QTY":{
+					"type": "string",
+					"x-ecample": ""
 				}
 				}
 		}
