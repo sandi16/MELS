@@ -433,6 +433,10 @@
 				"K2_TALLY_CLARK_STATUS": {
 					"type": "string",
 					"x-ecample": ""
+				},
+				"SHR_CARDBOARD_6PLY_QTY":{
+					"type": "string",
+					"x-ecample": ""
 				}
 			}
 		}
