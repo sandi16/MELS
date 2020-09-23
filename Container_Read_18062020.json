@@ -83,7 +83,10 @@
 							"K2_SEALNO":null,
 							"SEAL_HIGH_REASONS":null,
 							"SEAL_HIGH_MEMO":null,
-							"ADMIN_RE_CHECK_MEMO":null
+							"ADMIN_RE_CHECK_MEMO":null,
+							"ETA_SG":null,
+							"TRUCK_IN_DATE":null,
+							"K2_STATUS":null
 							
 						}
 					}
@@ -289,6 +292,18 @@
 					"x-example": ""
 				},
 				"ADMIN_RE_CHECK_MEMO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"ETA_SG": {
+					"type": "string",
+					"x-example": ""
+				},
+				"TRUCK_IN_DATE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"K2_STATUS": {
 					"type": "string",
 					"x-example": ""
 				}
