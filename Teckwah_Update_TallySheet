@@ -427,7 +427,11 @@
 					"x-ecample": ""
 				},
 				"TRUCK_IN_DATE": {
-					"type": "date-time",
+					"type": "string",
+					"x-ecample": ""
+				},
+				"K2_TALLY_CLARK_STATUS": {
+					"type": "string",
 					"x-ecample": ""
 				}
 			}
