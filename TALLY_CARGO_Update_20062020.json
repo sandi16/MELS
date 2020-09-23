@@ -232,6 +232,32 @@
 				"TAF_PE_FOAM": {
 					"type": "string",
 					"x-example": ""
+				},
+				"VIN_PLANNEDRECEIVEDDATE_ETA": {
+					"type": "string",
+					"format": "date-time",
+					"x-example": "2020-04-14T10:47:24"
+				},
+				"VIN_PLANNEDDELIVERYDATE_ETD": {
+					"type": "string",
+					"format": "date-time",
+					"x-example": "2020-04-14T10:47:24"
+				},
+				"ETA_SG": {
+					"type": "string",
+					"x-example": ""
+				},
+				"TRUCK_IN_DATE": {
+					"type": "string",
+					"x-example": ""
+				},
+				"K2_CONTAINERNO": {
+					"type": "string",
+					"x-example": ""
+				},
+				"K2_STATUS": {
+					"type": "string",
+					"x-example": ""
 				}
 			}
 		}
