@@ -227,7 +227,8 @@
 							"CARGO_GROSS_WEIGHT": null,
 							"MATERIAL_WEIGHT": null,
 							"TOTAL_WEIGHT": null,
-							"VIN_TOTAL_WEIGHT": null
+							"VIN_TOTAL_WEIGHT": null,
+							"K2_STATUS":null
 						}
 					}
 				}
@@ -1007,6 +1008,10 @@
 					"x-example": ""
 				},
 				"VIN_TOTAL_WEIGHT": {
+					"type": "string",
+					"x-example": ""
+				},
+				"K2_STATUS": {
 					"type": "string",
 					"x-example": ""
 				}
