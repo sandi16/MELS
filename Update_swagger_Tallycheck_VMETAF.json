@@ -780,6 +780,10 @@
 				"VIN_TOTAL_WEIGHT": {
 					"type": "string",
 					"x-example": ""
+				},
+				"K2_STATUS": {
+					"type": "string",
+					"x-example": ""
 				}
 			}
 		}
