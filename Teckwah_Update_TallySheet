@@ -425,6 +425,10 @@
 				"ETA_SG_DATE": {
 					"type": "date-time",
 					"x-ecample": ""
+				},
+				"TRUCK_IN_DATE": {
+					"type": "date-time",
+					"x-ecample": ""
 				}
 			}
 		}
