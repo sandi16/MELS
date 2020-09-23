@@ -138,7 +138,8 @@
 							"SHR_POCKET_CHB":null,
 							"SHR_1PLY_CHB": null,
 							"ETA_SG":null,
-							"ETA_SG_DATE": null
+							"ETA_SG_DATE": null,
+							"TRUCK_IN_DATE": null
 						}
 					}
 				}
@@ -563,6 +564,10 @@
 					"x-example": ""
 				},
 				"ETA_SG_DATE": {
+					"type": "date-time",
+					"x-example": ""
+				},
+				"TRUCK_IN_DATE": {
 					"type": "date-time",
 					"x-example": ""
 				}
