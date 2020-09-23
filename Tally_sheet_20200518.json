@@ -139,7 +139,8 @@
 							"SHR_1PLY_CHB": null,
 							"ETA_SG":null,
 							"ETA_SG_DATE": null,
-							"TRUCK_IN_DATE": null
+							"TRUCK_IN_DATE": null,
+							"K2_TALLY_CLARK_STATUS": null
 						}
 					}
 				}
@@ -568,7 +569,11 @@
 					"x-example": ""
 				},
 				"TRUCK_IN_DATE": {
-					"type": "date-time",
+					"type": "string",
+					"x-example": ""
+				},
+				"K2_TALLY_CLARK_STATUS": {
+					"type": "string",
 					"x-example": ""
 				}
 				}
