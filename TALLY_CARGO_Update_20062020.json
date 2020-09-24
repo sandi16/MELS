@@ -258,6 +258,10 @@
 				"K2_STATUS": {
 					"type": "string",
 					"x-example": ""
+				},
+				"VIN_PACKINGSTATUS": {
+					"type": "string",
+					"x-example": ""
 				}
 			}
 		}
