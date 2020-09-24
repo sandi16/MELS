@@ -94,7 +94,8 @@
 							"ETA_SG":null,
 							"TRUCK_IN_DATE":null,
 							"K2_CONTAINERNO":null,
-							"K2_STATUS":null
+							"K2_STATUS":null,
+							"VIN_PACKINGSTATUS":null
 						}
 					}
 				}
@@ -344,6 +345,10 @@
 					"x-example": ""
 				},
 				"K2_STATUS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"VIN_PACKINGSTATUS": {
 					"type": "string",
 					"x-example": ""
 				}
