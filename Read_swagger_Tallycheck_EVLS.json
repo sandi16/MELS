@@ -275,7 +275,8 @@
 							"TOTAL_WEIGHT": null,
 							"VIN_TOTAL_WEIGHT": null,
 							"EVLS_REMARKS":null,
-							"K2_STATUS":null
+							"K2_STATUS":null,
+							"PHOTOCHECK":null
 						}
 					}
 				}
@@ -724,7 +725,7 @@
 					"type": "string",
 					"x-example": ""
 				},
-								"PALLETID_R1C2": {
+				"PALLETID_R1C2": {
 					"type": "string",
 					"x-example": ""
 				},
@@ -1247,6 +1248,10 @@
 					"x-example": ""
 				},
 				"K2_STATUS": {
+					"type": "string",
+					"x-example": ""
+				},
+				"PHOTOCHECK": {
 					"type": "string",
 					"x-example": ""
 				}
