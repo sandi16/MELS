@@ -972,6 +972,10 @@
 				"K2_STATUS": {
 					"type": "string",
 					"x-example": ""
+				},
+				"PHOTOCHECK": {
+					"type": "string",
+					"x-example": ""
 				}
 			}
 		}
